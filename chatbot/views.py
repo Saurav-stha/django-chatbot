@@ -11,7 +11,7 @@ from django.http import JsonResponse
 
 import openai
 
-openai_api_key = 'sk-proj-THgaxUtNeh7sBGn2czVQT3BlbkFJTmfPAohx00EomhTijwO1'
+openai_api_key = 'in env gitignore'
 openai.api_key = openai_api_key
 
 #have to change model CODE 429(exceed current quota)
